@@ -1,6 +1,12 @@
 <script setup lang="ts">
+  import { useRouter } from "vue-router";
+import RouterNames from "../router/name";
 
+const router = useRouter();
 
+const goHomeUrl = () => {
+  router.push({name: RouterNames.home})
+}
 </script>
 
 <template lang="pug">
@@ -13,11 +19,11 @@
           li.topSide-list-item FAQ
           li.topSide-list-item BLOG
           li.topSide-list-item AFFILIATE
-    .flex.items-center.w-lg
+    .flex.items-center.w-lg(@click="goHomeUrl")
       .logo-left
-        img(src="src/assets/images/header/logo.png" alt)
+        img(src="src/assets/images/header/logo.png" alt="logo")
       .logo-right
-        img(src="src/assets/images/header/hero.png" alt)
+        img(src="src/assets/images/header/hero.png" alt="hero")
   .header-footer.flex.items-center.text-white
     ul.header-footer-bar
       li SPORTS
@@ -42,10 +48,10 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      position: fixed;
+      /* position: fixed;
       top: 0;
-      left: 0;
-      z-index: 100;
+      left: 0; */
+      /* z-index: 100; */
   }
   
   .topSide {
