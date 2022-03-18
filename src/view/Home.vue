@@ -12,7 +12,8 @@ main
         </button>
       ul.slider-img-list
         li
-          img(src="src/assets/images/header/home/slider/slider1.jpeg" alt="slider")
+          //- img(src="@/assets/images/header/home/slider/slider1.jpeg" alt="slider")
+          <img src="@/assets/images/header/home/slider/slider1.jpeg" alt="slider"/>
       //
         <button class="nextPage btn">
         <i class="fa-solid fa-angle-right"></i>
@@ -20,33 +21,40 @@ main
     .announcement
       .w-lg.flex.items-center
         .w-8.h-8.flex.justify-center.items-center
-          img(src="src/assets/images/header/home/announcement.png" alt="announcement")
+          //- img(src="@/assets/images/header/home/announcement.png" alt="announcement")
+          <img src="@/assets/images/header/home/announcement.png" alt="announcement" />
         p Attention ! Come and Try our newly released BetB2B Sports and enjoy more options for your favorite Sports games betting with FUN88
     section
-      img(src="src/assets/images/header/home/section/section1.png" alt="section")
+      <img src="@/assets/images/header/home/section/section1.png" alt="section" />
+      //- img(src="@/assets/images/header/home/section/section1.png" alt="section")
     section
-      img(src="src/assets/images/header/home/section/section2.png" alt="section")
+      <img src="@/assets/images/header/home/section/section2.png" alt="section" />
+      //- img(src="@/assets/images/header/home/section/section2.png" alt="section")
     section.mobileApp.flex
       .mobileApp-left
-        img(src="src/assets/images/header/home/phone.png" alt="phone")
+        <img src="@/assets/images/header/home/phone.png" alt="phone" />
+        //- img(src="@/assets/images/header/home/phone.png" alt="phone")
       .mobileApp-right
-        img(src="src/assets/images/header/home/phone-text1.png" alt="phone-text")
-        img(src="src/assets/images/header/home/phone-text2.png" alt="phone-text")
+        <img src="@/assets/images/header/home/phone-text1.png" alt="phone-text" />
+        <img src="@/assets/images/header/home/phone-text2.png" alt="phone-text" />
+        //- img(src="@/assets/images/header/home/phone-text1.png" alt="phone-text")
+        //- img(src="@/assets/images/header/home/phone-text2.png" alt="phone-text")
     hr.hr
     section.global
-      img(src="src/assets/images/header/home/global.png" alt="global")
+      <img src="@/assets/images/header/home/global.png" alt="global" />
+      //- img(src="@/assets/images/header/home/global.png" alt="global")
     section
-      img(src="src/assets/images/header/home/1.png" alt)
-      img(src="src/assets/images/header/home/2.png" alt)
-      img(src="src/assets/images/header/home/3.png" alt)
-      img(src="src/assets/images/header/home/4.png" alt)
-      img(src="src/assets/images/header/home/5.png" alt)
-      img(src="src/assets/images/header/home/6.png" alt)
-      img(src="src/assets/images/header/home/7.png" alt)
-      img(src="src/assets/images/header/home/8.png" alt)
-      img(src="src/assets/images/header/home/9.png" alt)
-      img(src="src/assets/images/header/home/10.png" alt)
-      img(src="src/assets/images/header/home/11.png" alt)
+      <img src="@/assets/images/header/home/1.png" alt=""/>
+      <img src="@/assets/images/header/home/2.png" alt=""/>
+      <img src="@/assets/images/header/home/3.png" alt=""/>
+      <img src="@/assets/images/header/home/4.png" alt=""/>
+      <img src="@/assets/images/header/home/5.png" alt=""/>
+      <img src="@/assets/images/header/home/6.png" alt=""/>
+      <img src="@/assets/images/header/home/7.png" alt=""/>
+      <img src="@/assets/images/header/home/8.png" alt=""/>
+      <img src="@/assets/images/header/home/9.png" alt=""/>
+      <img src="@/assets/images/header/home/10.png" alt=""/>
+      <img src="@/assets/images/header/home/11.png" alt=""/>
     
 </template>
 

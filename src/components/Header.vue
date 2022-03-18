@@ -21,9 +21,9 @@ const goHomeUrl = () => {
           li.topSide-list-item AFFILIATE
     .flex.items-center.w-lg(@click="goHomeUrl")
       .logo-left
-        img(src="src/assets/images/header/logo.png" alt="logo")
+        <img src="@/assets/images/header/logo.png" alt="logo"/>
       .logo-right
-        img(src="src/assets/images/header/hero.png" alt="hero")
+        <img src="@/assets/images/header/hero.png" alt="hero"/>
   .header-footer.flex.items-center.text-white
     ul.header-footer-bar
       li SPORTS
