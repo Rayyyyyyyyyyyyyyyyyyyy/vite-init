@@ -1,12 +1,12 @@
 const _RouterNames = {
-  home: "home",
-  about: "about",
 
-};
+  home: 'home',
+
+  page404: 'page404'
+}
 
 const RouterNames = {
-  ..._RouterNames,
-};
+  ..._RouterNames
+}
 
-
-export default RouterNames;
+export default RouterNames
