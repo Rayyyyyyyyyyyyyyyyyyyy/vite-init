@@ -6,10 +6,10 @@ const state = reactive({
 })
 </script>
 
-<template>
-  <div class="container">
-    <p>home {{ state.count }}</p>
-  </div>
+<template lang="pug">
+.container
+  .text-3xl home
+
 </template>
 
 <style lang="scss" scoped></style>
