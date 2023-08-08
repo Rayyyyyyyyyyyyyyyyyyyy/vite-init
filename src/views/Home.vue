@@ -7,9 +7,14 @@ const state = reactive({
 </script>
 
 <template lang="pug">
+Header
 .container
-  .text-3xl home
+  el-button.text-button home
 
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.text-button {
+  @apply text-3xl;
+}
+</style>
