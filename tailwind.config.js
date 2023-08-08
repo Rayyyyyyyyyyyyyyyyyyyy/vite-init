@@ -21,7 +21,7 @@ module.exports = {
         DEFAULT: '#ff0000'
       },
       bg: {
-        DEFAULT: '#F5F3F4',
+        DEFAULT: '#f3eeee',
         light: '#f0f0f0'
       },
       text: {
